@@ -1,0 +1,22 @@
+{
+  "tfidf": {
+    "stopwords": "english",
+    "min_words": "4",
+    "max_words": "200"
+  },
+  "spacy": {
+    "stopwords": "english",
+    "min_words": "4",
+    "max_words": "200"
+  },
+  "word2vec": {
+    "stopwords": "english",
+    "min_words": "4",
+    "max_words": "200"
+  },
+  "transformers": {
+    "stopwords": "english",
+    "min_words": "4",
+    "max_words": "200"
+  }
+}

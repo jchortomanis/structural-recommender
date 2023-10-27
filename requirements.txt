@@ -1,0 +1,14 @@
+pandas
+bs4
+nltk
+scikit-learn
+orator
+PyMySQL
+torch
+setuptools-rust
+sentence-transformers
+spacy
+lxml
+sqlalchemy
+pendulum
+

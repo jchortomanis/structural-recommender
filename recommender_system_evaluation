@@ -1,0 +1,42 @@
+Evaluation of the recommender system:
+
+1. (General) hit rate: (# recommendation selections) / (# pageviews of the education, events, news categories)
+
+2. True Positive (TP) - Item recommended and consumed by the user.
+For each 'to_id', TP = number of times 'to_id' was selected by users while it was recommended.
+
+3. False Positive (FP) - Item was recommended but the user didn’t consume it.
+FP = number of times 'to_id' was not selected by users while it was recommended.
+
+4. False Negative (FN) - The recommender didn’t include the item in a recommendation and the user consumed it.
+For each 'to_id', FN = # times the 'to_id' was selected at a next session step without been recommended.
+
+5. True Negative (TN)—It wasn’t recommended and the user didn’t consume it.
+
+
+Precision - What fraction of the recommended items the user consumed.
+Precision = True Positive / True Positive + False Positive.
+Precision = (number of times selected) / (number of times recommended), for each 'from_id' --> 'to_id' tuple (and for each 'to_id' only, if we add the numbers up for this 'to_id').
+So, we 'll need for each 'from_id' --> 'to_id' couple, daily count of # times 'to_id' was recommended and # of times 'to_id' was selected.
+Daily generated table/csv having the form:
+
+| from_id | to_id | # times to_id was recommended | # times to_id was selected |
+|   41367 | 11296 |                            23 |                          5 |
+|   41367 | 39764 |                             0 |                          0 |
+|   41367 |  9291 |                            38 |                          0 |
+|   41367 | 22670 |                             0 |                          2 |    <-- selected 2 times without been recommended
+|   41367 |     . |                             . |                          . |
+|   41367 |     . |                             . |                          . |
+|   41367 |     . |                             . |                          . |
+|    8252 | 17398 |                            12 |                          1 |
+|    8252 |     . |                             . |                          . |
+|    8252 |     . |                             . |                          . |
+|    8252 |     . |                             . |                          . |
+
+
+
+FP = (number of times not selected) / (number of times recommended) = (number of times recommended - number of times selected) / (number of times recommended),
+for each 'from_id' --> 'to_id' tuple (and for each 'to_id' only, if we add the numbers up for this 'to_id').
+
+
+Daily count of sidebar selections (popular + fresh), daily count of taskbar selections (similar)

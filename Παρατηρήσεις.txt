@@ -1,0 +1,346 @@
+1. Pop-up recommendations, when the reader comes to the end of the articles
+2. Side bar with number of items proportional to text length. Eg here:
+https://www.geoengineer.org/education/web-class-projects/cee-549-geoenvironmental-engineering-fall-2015/assignments/uranium-mill-tailings-remediation-in-the-united-states
+we have a very long list of recommended items
+3. Divide "Trending" to "Latest" and "Most Popular"
+4. Website internal search engine needs to be optimized
+5. Comments pointer (like Euronews.com) to drive you immediately to the comment section
+6. More intensive search for content in order to add it to our website
+7. Get ideas from other sites (not reinvent the wheel)
+8. Fill with at least one image any article that has not one
+9. On the right sidebar, the items are not distinguished easily
+10. It is not easy to tell at which item the image belongs
+11. Merge the recommendations from all nlp models into one list
+12. Merge the output of 2-3 (or more) different "popularity" queries
+12. Drop-down menu at News, Events, Education, Software (like at Publications), containing all the categories and subcategories/tags
+13. We should be able to select the name/image of an author and see his profile or other articles written by him, eg "Other posts by Charles Krolikowski:"
+https://www.geoengineer.org/education/web-class-projects/cee-549-geoenvironmental-engineering-fall-2015/assignments/uranium-mill-tailings-remediation-in-the-united-states
+14. As the number of the items is growing, we'll recommend more similar items
+15. Eg at: https://www.geoengineer.org/education/web-class-projects/ce-179-geosystems-engineering-design/assignments/st-francis-dam-worst-civil-engineering-failure-of-the-20th-century#
+Some tags do not lead anywhere
+16. Maybe addition of "Videos" category along with "Gallery"? Or combine them into a "Media" category?
+17. Incorporation of a time decay function in the recommended items.
+18. Take into account of the time the users spend on each page
+19. How to compare hit rate before and after launch of the recommendation system
+20. If someone is at an education/events/news item, we'll recommend to him mostly the most popular education/events/news items respectively (at the right sidebar)
+21. "Recommended for you:", additional tag-based list with recommendations for users (who, unlike visitors, have declared an area of interest)
+22. Additional "Users who viewed this item also viewed:" list (to our "items related to this item:" existing list)
+23. Ask users to rate our recommendations (explicit feedback)
+24. Ask users to rate the articles they read
+25. At the Web class projects, the right sidebar differs from the other education items and no bottom bar containing similar recommendations exists
+26. Insert the information of how much time needed to read the article
+27. After the title, we could add a clear, specific benefit of reading the article
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+News:
+
+https://www.theguardian.com/global-development/2022/aug/17/pakistan-floods-kill-580-and-bring-misery-to-millions
+
+https://www.reuters.com/business/environment/torrential-new-zealand-rains-floods-force-evacuation-200-homes-media-2022-08-17/
+
+https://www.reuters.com/world/europe/frances-river-loire-sets-new-lows-drought-dries-up-its-tributaries-2022-08-17/
+
+https://www.theguardian.com/us-news/2022/aug/10/death-valley-floods-climate-crisis
+
+https://www.euronews.com/2022/07/03/six-people-killed-in-huge-ice-avalanche-in-northern-italy
+
+https://www.euronews.com/2022/07/10/swiss-experts-fear-alpine-mountain-collapse-after-italys-deadly-marmolada-avalanche
+
+https://www.euronews.com/2022/06/22/afghanistan-earthquake-kills-at-least-255-people
+
+https://www.euronews.com/2022/07/02/iran-at-least-five-people-killed-in-magnitude-6-earthquake
+
+https://www.euronews.com/green/2022/04/06/azores-island-still-shaking-as-scientists-try-to-understand-what-caused-tremors
+
+https://www.theguardian.com/world/2022/jul/18/china-floods-sichuan-gansu-province-dead-thousands-evacuated
+
+https://www.theguardian.com/australia-news/2022/jul/04/nsw-floods-thousands-evacuated-from-rising-waters-as-sydney-braces-for-more-wild-weather
+
+https://www.independent.co.uk/asia/india/amarnath-yatra-cloudburst-pilgrims-dead-b2119370.html
+
+https://www.independent.co.uk/tv/news/alaska-landslide-video-trees-seward-b2075813.html     # We have it as a news item but not with the video
+
+https://www.independent.co.uk/asia/india/manipur-landslide-soldier-death-toll-b2113538.html
+
+https://economictimes.indiatimes.com/news/india/six-persons-killed-in-landslides-in-karnataka/articleshow/93301163.cms
+
+https://edition.cnn.com/2022/07/31/middleeast/iran-floods-mudslides-weather-climate-intl/index.html
+
+https://edition.cnn.com/2022/08/09/asia/seoul-south-korea-rain-flooding-intl-hnk/index.html
+
+https://edition.cnn.com/2022/08/03/world/tonga-eruption-water-climate-stratosphere-scn/index.html
+
+https://www.esa.int/ESA_Multimedia/Images/2022/08/Rhine_river_runs_dry
+
+https://edition.cnn.com/2022/08/01/weather/kentucky-appalachia-flooding-monday/index.html
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Geology / Geoengineering / Energy:
+
+
+Uranium ore, mining:
+
+https://world-nuclear-news.org/Articles/Niger-government-increases-stake-in-Dasa-uranium-p
+
+https://www.mining-technology.com/projects/dasa-uranium-project-republic-of-niger/
+
+https://world-nuclear-news.org/Articles/Preparations-for-uranium-mine-start-ups
+
+https://world-nuclear-news.org/Articles/UEC-files-uranium-resource-estimates-for-projects
+
+https://geoinfo.nmt.edu/resources/uranium/mining.html
+
+https://www.freepressjournal.in/india/huge-deposits-of-uranium-found-in-rajasthans-sikar
+
+
+Bauxite - Aluminum:
+
+https://www.globalminingreview.com/special-reports/07052021/employing-precision-surface-mining-at-african-bauxite-mine/
+
+https://www.bloomberg.com/news/articles/2021-09-16/ghana-signs-1-2-billion-deal-to-develop-its-bauxite-resources
+
+https://www.alcircle.com/news/top-ten-countries-with-the-highest-bauxite-production-in-2021-79380
+
+https://www.alcircle.com/news/imidro-uncovers-new-mineral-reserves-worth-us28-7-billion-in-iran-17-million-tonnes-of-bauxite-reserve-unearthed-79383
+
+https://www.alcircle.com/news/bauxite-exportation-market-of-greece-remains-unstable-during-2017-20-57610
+
+https://www.alcircle.com/news/metro-mining-plans-to-elevate-bauxite-hills-production-capacity-by-75-80842
+
+
+Coal - Lignite, coalbeds etc:
+
+Geothermal:
+
+Wind turbine installation:
+
+Solar panel installation:
+
+Gold - silver mining:
+
+Manganese:
+
+Nickel:
+
+Rare earths:
+
+Survey engineering - GIS - Geomatics:
+
+Oil and Gas production, remaining recoverable resources etc:
+
+Shale Oil - Tar sands:
+
+Unconventional Oil and Gas:
+
+Oil wells - land and sea platforms:
+
+Underground storage (oil - natural gas - nuclear waste):
+
+https://www.encyclopedie-environnement.org/en/soil/underground-storage-gas-and-hydrocarbons-prospects-for-energy-transition/
+
+Oil - Natural gas cavities and reserves:
+
+Hydraulic fracturing (fracking):
+
+Hydroelectric power - dams:
+
+River bed changes (including Mesochora):
+
+Road construction:
+
+Bridge construction:
+
+Transportation:
+
+Railway:
+
+Ports - Airfields:
+
+Tunnel engineering (road - railway - metro - underwater/subsea - CERN/ITER):
+
+Rural and urban space regeneration:
+
+Structural Engineering:
+
+Antiseismic structures:
+
+Piles:
+
+Environmental Engineering:
+
+Geotechnical Engineering:
+
+Foundation Engineering:
+
+Transportation Engineering:
+
+Surveying:
+
+Construction and/or Management Engineering:
+
+Municipal or Urban Engineering:
+
+Materials engineering:
+
+Coastal and Off-Shore Engineering:
+
+Fire protection engineering:
+
+Hydraulic engineering:
+
+Mining engineering:
+
+Marine engineering (deep-sea drilling equipment):
+
+Water resources engineering:
+
+Traffic engineering:
+
+Highway engineering:
+
+Earthquake engineering:
+
+Forensic engineering:
+
+Energy engineering:
+
+Site development and planning:
+
+Geology:
+
+Hydrology:
+
+Soil Erosion and Sediment Transport:
+
+Soil pollution:
+
+Soil regeneration:
+
+Ground freezing - permafrost:
+
+Underwater construction:
+
+Craters:
+
+Sinkholes:
+
+Deep excavations:
+
+Disasters and failures:
+
+Wildfires:
+
+Testing equipment (laboratory, industrial, outdoor), instruments:
+
+Solid waste landfills:
+
+Drains:
+
+
+
+
+
+
+
+
+
+
+
+
+Of Greek interest:
+
+https://www.keeptalkinggreece.com/2022/08/10/skyscraper-athens-riviera-hellinikon-project-license/
+
+
+Statistics:
+
+https://www.statista.com/statistics/264964/production-of-bauxite/
+
+https://www.mining-technology.com/bauxite-commodity-dashboard/
+
+
+Environment:
+
+https://www.reuters.com/world/uk/uks-yorkshire-water-introduce-hosepipe-ban-august-26-2022-08-12/
+
+
+
+Books:
+
+https://www.iaea.org/publications/1463/uranium-extraction-technology
+
+
+Events - Conferences:
+
+https://www.upcomingengineeringconferences.com/international-conference-on-civil-environmental-engineering.html
+
+https://www.lightmetalage.com/news/event-news/icsoba-2022-to-present-mine-to-metal-industry-knowledge/
+
+https://www.britishgeotech.org/news/2022/07/bga-announces-georesilience-2023-conference
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Structure:
+
+News  ---> Natural Disasters    ---> Landslides
+                                ---> Floods
+                                ---> Earthquakes
+                                ---> Volcano eruptions
+                                --->
+
+
+
+
+     |---> Corporate News       ---> Project approval/undertaking/announcement, completion, tender awards
+                                ---> Company mergers, acquisitions/takeovers,  appointments of directors
+                                ---> Announcements of (quarter/semester/annual) financial results
+                                ---> Market reports
+
+
+
+
+     |---> (Geo)technical       ---> New engineering techniques and scientific methods
+                                ---> Projects (technical description only)
+                                ---> Historical (old projects, breakthroughs)
+                                ---> Instruments, equipment
+
+
+
+
+     |---> Geological           ---> New deposits (ore, uranium, oil, natural gas)
+                                ---> Earth morphology (layers, rocks, soils, subsoils)
+                                ---> Earthquake research, oil and gas exploration, sonar
+
+
+
+
+     |---> Educational
+
+
+
+
+     |---> Equipment            ---> Devices, Laboratory, Measurements
+
+
+
+
+Statistics  ---> Construction   ---> Bridges
+                                ---> Roads
+                                ---> Tunnels    ---> Mountain
+                                                ---> Underwater
+
+                                ---> Railway
+                                ---> Ports
+                                ---> Airports
